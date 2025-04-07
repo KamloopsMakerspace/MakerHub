@@ -1,8 +1,7 @@
-# PROTOVAC UNIVERSAL COMPUTER
+# MakerHub
 
-Protovac is software for an old dumb terminal CRT screen that's used to display
-random info about Protospace. There's a few interactive features like sending
-messages to a huge marquee LED sign and performing calculations.
+Makerhub is software forked from Protovac.  The Universal Computer for Protospace.  It will be used to display
+random info about Kamloops Makerspace and printing nametags and labels.
 
 ![and old CRT screen from 1983 with a keyboard infront of it](media/pic1.jpg)
 
