@@ -3,19 +3,22 @@
 Makerhub is software forked from Protovac.  The Universal Computer for Protospace.  It will be used to display
 random info about Kamloops Makerspace and printing nametags and labels.
 
-![and old CRT screen from 1983 with a keyboard infront of it](media/pic1.jpg)
-
 Here are some of its screens:
 
 ```
- _______  _______      ___    _________    ___   ____   ____  _        ______
-|_   __ \|_   __ \   .'   `. |  _   _  | .'   `.|_  _| |_  _|/ \     .' ___  |
-  | |__) | | |__) | /  .-.  \|_/ | | \_|/  .-.  \ \ \   / / / _ \   / .'   \_|
-  |  ___/  |  __ /  | |   | |    | |    | |   | |  \ \ / / / ___ \  | |
- _| |_    _| |  \ \_\  `-'  /   _| |_   \  `-'  /   \ ' /_/ /   \ \_\ `.___.'\
-|_____|  |____| |___|`.___.'   |_____|   `.___.'     \_/|____| |____|`.____ .'
 
-                                         UNIVERSAL COMPUTER
+
+                                       
+ /$$      /$$           /$$                           /$$   /$$           /$$      
+| $$$    /$$$          | $$                          | $$  | $$          | $$      
+| $$$$  /$$$$  /$$$$$$ | $$   /$$  /$$$$$$   /$$$$$$ | $$  | $$ /$$   /$$| $$$$$$$ 
+| $$ $$/$$ $$ |____  $$| $$  /$$/ /$$__  $$ /$$__  $$| $$$$$$$$| $$  | $$| $$__  $$
+| $$  $$$| $$  /$$$$$$$| $$$$$$/ | $$$$$$$$| $$  \__/| $$__  $$| $$  | $$| $$  \ $$
+| $$\  $ | $$ /$$__  $$| $$_  $$ | $$_____/| $$      | $$  | $$| $$  | $$| $$  | $$
+| $$ \/  | $$|  $$$$$$$| $$ \  $$|  $$$$$$$| $$      | $$  | $$|  $$$$$$/| $$$$$$$/
+|__/     |__/ \_______/|__/  \__/ \_______/|__/      |__/  |__/ \______/ |_______/ 
+                                                                                   
+                                                                                   
 
    [S] Stats
 
@@ -29,25 +32,20 @@ Here are some of its screens:
 
    [A] About
 
-
-
-              Copyright (c) 1985 Bikeshed Computer Systems Corp.
 ```
 
 ```
-PROTOVAC UNIVERSAL COMPUTER
+MakerHub
 
-Protospace Stats
+Makerspace Stats
 ================
 
 Next meeting: Thu Sep 15, 2022  7:00 PM
 
-Next clean:   Sat Sep 17, 2022  10:00 AM
-
-Next class:   Vinyl Cutting and Application Course
+Next Event:   Workshop
               Sat Sep 10, 2022  2:00 PM
 
-Last class:   Metal: Metal Cutting & Manual Lathe
+Last Event:   Fundraiser
               Sat Sep 3, 2022  10:00 AM
 
 Member count: 249   Green: 208   Paused / expired: 1209
@@ -56,88 +54,25 @@ Card scans:   14
 
 
 
-
-
 [B] Back
-```
 
-```
-PROTOVAC UNIVERSAL COMPUTER
-
-Protospace Sign
-===============
-
-Send a message to the sign in the welcome room and classroom.
-After sending, turn your head right and wait 5 seconds.
-
-   [E] Edit message
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[B] Back
 ```
 
 ```
-PROTOVAC UNIVERSAL COMPUTER
+MakerHub
 
-Protospace Classes
-==================              Instructor    Cost     Students
+Events
+==================             
 
-New Member Orientation and Safety
-Sun Aug 28, 2022  2:00 PM       Scott Y.      Free     6 / 6
+Fundraiser
+Sun Aug 28, 2022  2:00 PM     
 
-New Member Orientation and Safety
-Fri Sep 2, 2022  7:00 PM        Tim G.        Free     6
+Workshop
+Fri Sep 2, 2022  7:00 PM
 
-Woodworking Tools 1: Intro to Saws
-Sun Sep 11, 2022  2:00 PM       Vince K.      $20.00   8 / 8
+Board Game Night
+Sun Sep 11, 2022  2:00 PM     
 
-Laser II: Trotec (Requires Laser I)
-Sun Aug 28, 2022  11:00 AM      Jack W.       $30.00   3 / 5
-
-Monthly Members Meeting
-Thu Sep 15, 2022  7:00 PM       Protospace    Free     0
-
-Monthly Cleanup and Group Lunch
-Sat Sep 17, 2022  10:00 AM      Protospace    Free     2
-
-[B] Back  [J] Down  [K] Up
-```
-
-```
-PROTOVAC UNIVERSAL COMPUTER
-
-Protocoin
-=========
-
-Protocoin is used to buy things from Protospace's vending machines.
-
-Total in circulation: 70.0
-
-Transactions:
-
-ID     Date        Method       Amount  Category
-44130  2022-08-31  Protocoin    1.00    Transfer
-44129  2022-08-31  Protocoin    -1.00   Transfer
-44109  2022-08-29  PayPal       10.00   Exchange
-44068  2022-08-26  PayPal       10.00   Exchange
-44062  2022-08-24  PayPal       10.00   Exchange
-44055  2022-08-24  PayPal       20.00   Exchange
-44053  2022-08-23  Protocoin    1.00    Transfer
-44052  2022-08-23  Protocoin    -1.00   Transfer
-44048  2022-08-23  PayPal       19.00   Exchange
-44047  2022-08-23  PayPal       1.00    Exchange
 
 [B] Back  [J] Down  [K] Up
 ```
@@ -148,7 +83,7 @@ PROTOVAC UNIVERSAL COMPUTER
 Think
 =====
 
-Give Protovac something to think about.
+Give MakerHub something to think about.
 
    [E] Edit prompt
 
