@@ -19,14 +19,11 @@ Here are some of its screens:
 |__/     |__/ \_______/|__/  \__/ \_______/|__/      |__/  |__/ \______/ |_______/ 
                                                                                    
                                                                                    
+   [N] Nametags
 
    [S] Stats
 
-   [N] Sign
-
-   [C] Classes
-
-   [P] Protocoin
+   [E] Events
 
    [T] Think
 
@@ -78,7 +75,7 @@ Sun Sep 11, 2022  2:00 PM
 ```
 
 ```
-PROTOVAC UNIVERSAL COMPUTER
+MakerHub
 
 Think
 =====
@@ -111,8 +108,8 @@ For developing on your own Ubuntu / Debian machine:
 ```
 $ sudo apt update
 $ sudo apt install python3 python3-dev python3-pip python3-virtualenv libopenjp2-7 git
-$ git clone https://github.com/Protospace/protovac.git
-$ cd protovac/
+$ git clone https://github.com/KamloopsMakerspace/MakerHub/makerhub.git
+$ cd makerhub/
 $ virtualenv -p python3 env
 $ source env/bin/activate
 (env) $ pip install -r requirements.txt
@@ -171,37 +168,37 @@ SSH into the Raspberry Pi for setup:
 ```
 $ sudo apt update
 $ sudo apt install python3 python3-dev python3-pip python3-virtualenv libopenjp2-7 vim byobu git
-$ sudo hostnamectl set-hostname protovac
+$ sudo hostnamectl set-hostname makerhub
 ```
 
-Replace "raspberrypi" with "protovac" in `/etc/hosts`.
+Replace "raspberrypi" with "makerhub" in `/etc/hosts`.
 
-Create "protovac" user:
+Create "makerhub" user:
 
 ```
-$ sudo adduser protovac
-$ sudo usermod -aG dialout protovac
-$ sudo usermod -aG lp protovac
-$ sudo usermod -aG gpio protovac
+$ sudo adduser makerhub
+$ sudo usermod -aG dialout makerhub
+$ sudo usermod -aG lp makerhub
+$ sudo usermod -aG gpio makerhub
 ```
 
 Edit `/lib/systemd/system/serial-getty@.service`:
 
 ```
-ExecStart=-/sbin/agetty --autologin protovac 9600 %I mt70
+ExecStart=-/sbin/agetty --autologin makerhub 9600 %I mt70
 ```
 
 Edit `/etc/passwd`:
 
 ```
-protovac:x:1001:1001:,,,:/home/protovac:/home/pi/protovac/main.py
+makerhub:x:1001:1001:,,,:/home/makerhub:/home/pi/makerhub/main.py
 ```
 
 ```
 $ cd
 $ chmod o+rx ~
-$ git clone https://github.com/Protospace/protovac.git
-$ cd protovac/
+$ git clone https://github.com/KamloopsMakerspace/MakerHub/makerhub.git
+$ cd makerhub/
 $ sudo tic -o /lib/terminfo/ mt70
 $ virtualenv -p python3 env
 $ source env/bin/activate
@@ -218,12 +215,12 @@ $ sudo systemctl daemon-reload
 $ sudo systemctl restart serial-getty@ttyS0.service
 ```
 
-### Dymo LabelWriter 450 Setup
+### Brother QL-700 Setup
 
 Make sure it's connected with `sudo lsusb`:
 
 ```
-Bus 001 Device 002: ID 0922:0020 Dymo-CoStar Corp. LabelWriter 450
+Bus 001 Device 002: ID 0922:0020 Brother QL-700
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 ```
 
