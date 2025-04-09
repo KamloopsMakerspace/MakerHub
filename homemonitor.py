@@ -1,4 +1,4 @@
-# This script monitors Protovac's HOME key to kick the user
+# This script monitors MakerHub's HOME key to kick the user
 # back to the home screen
 #
 # Runs as root
