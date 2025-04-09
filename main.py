@@ -1,4 +1,4 @@
-#!/home/pi/protovac/env/bin/python
+#!/home/pi/makerhub/env/bin/python
 
 import os, logging
 DEBUG = os.environ.get('DEBUG')
@@ -66,7 +66,7 @@ location = os.path.dirname(os.path.realpath(__file__))
 with open(location + '/info.txt') as f:
     PROTO_INFO = f.read()
 
-for num, line in enumerate(PROTO_INFO.split('\n')):
+for num, line in enumerate(MAKER_INFO.split('\n')):
     try:
         line.encode('ascii')
     except UnicodeEncodeError:
@@ -81,7 +81,7 @@ def format_date(datestr):
     if not datestr: return 'None'
 
     d = datetime.strptime(datestr, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=pytz.UTC)
-    d = d.astimezone(TIMEZONE_CALGARY)
+    d = d.astimezone(TIMEZONE_KAMLOOPS)
     return d.strftime('%a %b %-d, %Y  %-I:%M %p')
 
 def sign_send(to_send):
